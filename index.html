@@ -4,8 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
     <meta name="theme-color" content="#FCFBF9">
-    <meta name="description" content="Vitória Pamplona Nail Designer em Roçado, São José - SC. Fibra de vidro, banho de gel e esmaltação em gel. Agende seu horário pelo WhatsApp.">
+    <meta name="description" content="Nail designer em Roçado, São José - SC. Fibra de vidro, banho de gel, esmaltação em gel, mão e pé tradicional. Agende seu horário com Vitória Pamplona.">
     <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://vitoriapamplona.com.br/">
+    <meta name="author" content="Vitória Pamplona">
+    <meta property="og:site_name" content="Vitória Pamplona">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://vitoriapamplona.com.br/">
+    <meta property="og:image" content="https://vitoriapamplona.com.br/foto-capa.jpeg">
+    <meta property="og:image:alt" content="Vitória Pamplona, nail designer em São José - SC">
+    <meta property="og:image:type" content="image/jpeg">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Vitória Pamplona | Nail Designer em São José - SC">
+    <meta name="twitter:description" content="Fibra de vidro, banho de gel, esmaltação em gel, mão e pé tradicional em São José - SC.">
+    <meta name="twitter:image" content="https://vitoriapamplona.com.br/foto-capa.jpeg">
+    <link rel="preload" as="image" href="foto-capa.jpeg">
     <meta property="og:title" content="Vitória Pamplona | Nail Designer em São José - SC">
     <meta property="og:description" content="Fibra de vidro, banho de gel e esmaltação em gel. Agende seu horário com Vitória Pamplona.">
     <meta property="og:type" content="website">
@@ -15,6 +28,7 @@
     <link rel="icon" type="image/svg+xml" href="favicon.svg">
     <link rel="alternate icon" type="image/svg+xml" href="favicon.svg">
     <meta name="apple-mobile-web-app-title" content="Vitória Pamplona">
+    <link rel="manifest" href="site.webmanifest">
 
 
     <!-- Duas fontes: Playfair Display para títulos e Montserrat para textos -->
@@ -185,9 +199,62 @@
             }
         }
     </style>
+    <!-- Dados estruturados para SEO local e identificação do site -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://vitoriapamplona.com.br/#website",
+          "url": "https://vitoriapamplona.com.br/",
+          "name": "Vitória Pamplona",
+          "alternateName": "Vitória Pamplona Nail Designer",
+          "inLanguage": "pt-BR"
+        },
+        {
+          "@type": "NailSalon",
+          "@id": "https://vitoriapamplona.com.br/#business",
+          "name": "Vitória Pamplona | Nail Designer",
+          "url": "https://vitoriapamplona.com.br/",
+          "image": [
+            "https://vitoriapamplona.com.br/foto-capa.jpeg",
+            "https://vitoriapamplona.com.br/foto-vitoria.jpeg"
+          ],
+          "telephone": "+55 48 8806-2040",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Av. João Theodoro da Silva, 243 - Sala 03",
+            "addressLocality": "São José",
+            "addressRegion": "SC",
+            "postalCode": "88108-300",
+            "addressCountry": "BR"
+          },
+          "areaServed": {
+            "@type": "City",
+            "name": "São José"
+          },
+          "sameAs": [
+            "https://www.instagram.com/vitoriapamplona.nails_/"
+          ],
+          "knowsAbout": [
+            "Fibra de vidro",
+            "Banho de gel",
+            "Esmaltação em gel",
+            "Mão tradicional",
+            "Pé tradicional"
+          ]
+        }
+      ]
+    }
+    </script>
+
 </head>
 
 <body class="bg-brand-bg text-brand-text font-sans antialiased">
+    <a href="#conteudo" class="sr-only focus:not-sr-only focus:fixed focus:left-4 focus:top-4 focus:z-[200] focus:rounded-full focus:bg-brand-text focus:px-4 focus:py-3 focus:text-sm focus:text-white">
+        Ir para o conteúdo
+    </a>
 
     <!-- Header -->
     <header id="header" class="fixed inset-x-0 top-0 z-50 border-b border-brand-rose/30 bg-brand-bg/90 backdrop-blur-md transition-all duration-300">
@@ -214,7 +281,8 @@
         </div>
     </header>
 
-    <main id="inicio">
+    <main id="inicio" tabindex="-1">
+        <span id="conteudo" class="sr-only" aria-hidden="true"></span>
 
         <!-- Hero -->
         <section class="relative flex min-h-[90svh] items-center overflow-hidden pt-32 pb-16 sm:pt-36 md:min-h-[88vh] md:pb-24" aria-labelledby="hero-title">

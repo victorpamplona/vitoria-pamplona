@@ -1,0 +1,16 @@
+{
+  "name": "Vitória Pamplona | Nail Designer",
+  "short_name": "Vitória Pamplona",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FCFBF9",
+  "theme_color": "#FCFBF9",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
