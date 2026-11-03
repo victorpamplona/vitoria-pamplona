@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://vitoriapamplona.com.br/sitemap.xml
+Sitemap: https://www.vitoriapamplona.com.br/sitemap.xml
